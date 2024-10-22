@@ -1,0 +1,36 @@
+online-marketplace/
+│
+├── services/
+│   ├── payment-service/
+│   │   ├── app.py
+│   │   ├── Dockerfile
+│   │   └── requirements.txt
+│   ├── user-service/
+│   │   ├── app.py
+│   │   ├── Dockerfile
+│   │   └── requirements.txt
+│   ├── product-service/
+│   │   ├── app.py
+│   │   ├── Dockerfile
+│   │   └── requirements.txt
+│   └── order-service/
+│       ├── app.py
+│       ├── Dockerfile
+│       └── requirements.txt
+│
+├── k8s/
+│   ├── payment-service-deployment.yml
+│   ├── user-service-deployment.yml
+│   ├── product-service-deployment.yml
+│   ├── order-service-deployment.yml
+│   ├── namespace-dev.yml
+│   ├── namespace-prod.yml
+│   └── ingress.yml
+│
+├── ci-cd/
+│   ├── .gitlab-ci.yml
+│   └── Jenkinsfile
+│
+├── README.md
+├── docker-compose.yml
+└── .gitignore
